@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { VscArrowRight } from 'react-icons/vsc';
-
+import Image from "next/image"
 import styles from '@/styles/HomePage.module.css';
 
 export default function HomePage() {
@@ -14,8 +14,8 @@ export default function HomePage() {
       type: 'variable',
     },
     { code: '  const developerInfo = {', type: 'variable' },
-    { code: "    name: 'Nitin Ranganath',", type: 'array-item' },
-    { code: "    role: 'Full Stack Developer',", type: 'array-item' },
+    { code: "    name: 'Namit Chaudhari',", type: 'array-item' },
+    { code: "    role: 'AI Agent Developer',", type: 'array-item' },
     { code: "    bio: 'Building modern web experiences'", type: 'array-item' },
     { code: '  };', type: 'array-end' },
     { code: '', type: 'blank' },
@@ -90,15 +90,18 @@ export default function HomePage() {
         </div>
 
         <div className={styles.infoSection}>
+          <Image src={"/main.jpg"} height={200} width={200} alt='mainjpg' className={styles.homejpg}>
+
+          </Image>
           <h1 className={styles.developerName}>
-            Nitin <span className={styles.accentText}>Ranganath</span>
+            Namit <span className={styles.accentText}>Chaudhari</span>
           </h1>
 
-          <div className={styles.developerRole}>Full Stack Web Developer</div>
+          <div className={styles.developerRole}>Ai Agent Developer</div>
 
           <p className={styles.bio}>
-            I build elegant, responsive web applications with modern
-            technologies. Focused on clean code and intuitive user experiences.
+            I designs and builds intelligent systems that autonomously interact, reason, 
+            and solve tasks using large language models and prompt engineering.
           </p>
 
           <div className={styles.actionLinks}>

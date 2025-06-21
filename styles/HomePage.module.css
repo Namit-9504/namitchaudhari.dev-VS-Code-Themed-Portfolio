@@ -7,7 +7,7 @@
   grid-template-columns: 1.2fr 1fr;
   align-items: center;
   gap: 4rem;
-  padding: 2rem 4rem;
+  padding: 0 4rem;
   height: 100%;
 }
 
@@ -209,7 +209,7 @@
   gap: 1.5rem;
   position: relative;
   z-index: 2;
-  padding: 3rem 0;
+  
 }
 
 .developerName {
@@ -840,3 +840,9 @@
 .mobileAccent {
   display: none;
 }
+
+.homejpg{
+  border-radius: 50%;
+  
+}
+

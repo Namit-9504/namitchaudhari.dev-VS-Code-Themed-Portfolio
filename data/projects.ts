@@ -8,12 +8,12 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: 'Driwwwle',
+    title: 'KarmaBot',
     description:
-      'Discover creative websites and developers. A portal for you to share your projects.',
+      'An AI-powered chatbot that provides mental wellness guidance based on the teachings of the Bhagavad Gita.',
     logo: '/logos/driwwwle.svg',
-    link: 'https://github.com/itsnitinr/driwwwle',
-    slug: 'driwwwle',
+    link: 'https://github.com/Namit-9504/KarmaBot-Guidance-from-the-Bhagavad-Gita',
+    slug: 'KarmaBot',
   },
   {
     title: 'VSCode Portfolio',

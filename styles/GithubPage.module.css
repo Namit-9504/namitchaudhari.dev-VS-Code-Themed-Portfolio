@@ -59,8 +59,8 @@
 .avatar {
   border-radius: 50%;
   border: 3px solid var(--accent-color);
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
 
 .userInfo {

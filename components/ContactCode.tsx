@@ -1,40 +1,41 @@
 import styles from '@/styles/ContactCode.module.css';
 
 const contactItems = [
+ 
   {
-    social: 'website',
-    link: 'nitinranganath.com',
-    href: 'https://nitinranganath.com',
+    social: 'Email',
+    link: 'namitschaudhari@gmail.com',
+    href: 'mailto:namitschaudhari@gmail.com',
   },
   {
-    social: 'email',
-    link: 'nitinranganath@gmail.com',
-    href: 'mailto:nitinranganath@gmail.com',
+    social: 'Github',
+    link: 'Namit-9504',
+    href: 'https://github.com/Namit-9504',
   },
   {
-    social: 'github',
-    link: 'itsnitinr',
-    href: 'https://github.com/itsnitinr',
+    social: 'Linkedin',
+    link: 'Namit-chaudhari',
+    href: 'https://www.linkedin.com/in/namit-chaudhari/',
   },
   {
-    social: 'linkedin',
-    link: 'nitinranganath',
-    href: 'https://www.linkedin.com/in/nitinranganath/',
+    social: 'Telegram',
+    link: 'Namit Chaudhari',
+    href: 'https://t.me/NamitChaudhari',
   },
   {
-    social: 'twitter',
-    link: 'iamnitinr',
-    href: 'https://www.twitter.com/iamnitinr',
+    social: 'Instagram',
+    link: 'Chaudharinamit_',
+    href: 'https://www.instagram.com/chaudharinamit_',
   },
   {
-    social: 'telegram',
-    link: 'iamnitinr',
-    href: 'https://t.me/iamnitinr',
+    social: 'Whatsapp',
+    link: '+91 9623127245',
+    href: 'https://wa.me/9623127245?text=Hii',
   },
   {
-    social: 'peerlist',
-    link: 'nitinranganath',
-    href: 'https://peerlist.io/nitinranganath',
+    social: 'Twitter',
+    link: 'ChaudhariNamit',
+    href: 'https://www.twitter.com/ChaudhariNamit',
   },
 ];
 

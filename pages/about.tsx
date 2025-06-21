@@ -4,34 +4,43 @@ const AboutPage = () => {
   return (
     <div className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Nitin Ranganath</h1>
-        <div className={styles.subtitle}>Software Engineer</div>
+        <h1 className={styles.title}>Namit Chaudhari</h1>
+        <div className={styles.subtitle}>AI Agent Developer</div>
 
         <div className={styles.aboutContent}>
           <section className={styles.section}>
             <p className={styles.paragraph}>
-              Hey! I&apos;m a software engineer from Mumbai, India. I primarily
-              work with JavaScript / TypeScript and the React ecosystem.
+              Hey! I&apos;m an engineering graduate from Pune, India, with a primary 
+              background in Mechanical Engineering and an Honors specialization in Data Science. 
+              I love building intelligent systems that combine real-world problem-solving 
+              with emerging technologies like AI and machine learning.
             </p>
             <p className={styles.paragraph}>
-              I&apos;m focused on frontend development with React, but
-              you&apos;ll also find me working with Node.js, MongoDB and Express
-              while building the backend for my personal projects.
+              I&apos;m passionate about leveraging Python, Streamlit, and 
+              large language models (LLMs) to build meaningful AI-driven solutions.
+              deeply interested in prompt engineering and leveraging LLMs to create personalized,
+              purpose-driven AI agents that solve real-world challenges.
+              
+
             </p>
           </section>
 
           <section className={styles.section}>
             <h2 className={styles.sectionTitle}>Experience</h2>
             <p className={styles.paragraph}>
-              Currently at <span className={styles.highlight}>Tessact</span> as
-              Software Engineer 2, working with a lean team of 4 frontend
-              engineers to build a next-gen video creation suite for the people
-              of video.
+              Currently at <span className={styles.highlight}>LTIMindtree</span> as
+              as a Graduate Engineer Trainee (GET), contributing to IT and AI-driven 
+              solutions while continuing to explore the intersection of data science and 
+              intelligent systems.
             </p>
             <p className={styles.paragraph}>
-              I&apos;ve been leading the development efforts for bringing
-              collaborative video reviewing and editing to the platform. I also
-              maintain our in-house component library, icon library and website.
+              Developed KarmaBot — an AI-powered chatbot built using Python, Streamlit,
+               LangChain, and Groq APIs, designed to provide mental well-being support 
+               through insights from the Bhagavad Gita.
+            </p>
+            <p className={styles.paragraph}>
+              Gained hands-on experience in problem-solving, software development, and 
+              AI agent design across academic and real-world settings.
             </p>
           </section>
 
