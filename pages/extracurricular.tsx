@@ -1,8 +1,8 @@
-import ArticleCard from '@/components/ArticleCard';
+import ExtracurricularCard from '@/components/ExtracurricularCard';
 
 import { Article } from '@/types';
 
-import styles from '@/styles/ArticlesPage.module.css';
+import styles from '@/styles/ExtracurricularPage.module.css';
 
 export const articles: Article[] = [
   {
@@ -37,7 +37,7 @@ const ArticlesPage = () => {
       </p>
       <div className={styles.container}>
         {articles.map((article) => (
-          <ArticleCard key={article.id} article={article} />
+          <ExtracurricularCard key={article.id} article={article} />
         ))}
       </div>
     </div>

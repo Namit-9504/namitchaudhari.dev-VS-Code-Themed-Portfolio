@@ -2,13 +2,13 @@ import Image from 'next/image';
 
 import { Article } from '@/types';
 
-import styles from '@/styles/ArticleCard.module.css';
+import styles from '@/styles/ExtracurricularCard.module.css';
 
 interface ArticleCardProps {
   article: Article;
 }
 
-const ArticleCard = ({ article }: ArticleCardProps) => {
+const ExtracurricularCard = ({ article }: ArticleCardProps) => {
   return (
     <div>
       <div className={styles.imageWrapper}>
@@ -30,4 +30,4 @@ const ArticleCard = ({ article }: ArticleCardProps) => {
   );
 };
 
-export default ArticleCard;
+export default ExtracurricularCard;
