@@ -234,6 +234,7 @@
 .bio {
   font-size: 1.1rem;
   line-height: 1.6;
+  text-align: justify;
   color: rgba(255, 255, 255, 0.7);
   max-width: 35rem;
   margin: 0;

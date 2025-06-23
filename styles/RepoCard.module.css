@@ -43,6 +43,7 @@
   color: var(--text-color);
   font-size: 0.92rem;
   line-height: 1.5;
+  text-align: justify;
   flex-grow: 1;
   overflow-wrap: break-word;
   word-wrap: break-word;

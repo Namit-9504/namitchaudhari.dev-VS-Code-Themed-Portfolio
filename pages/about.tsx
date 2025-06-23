@@ -45,22 +45,14 @@ const AboutPage = () => {
           </section>
 
           <section className={styles.section}>
-            <h2 className={styles.sectionTitle}>Writing</h2>
-            <p className={styles.paragraph}>
-              I&apos;ve had the pleasure of writing for some amazing
-              publications like{' '}
-              <span className={styles.highlight}>100ms Blog</span>,{' '}
-              <span className={styles.highlight}>LogRocket Blog</span>,{' '}
-              <span className={styles.highlight}>DEV.to</span> and more as a
-              freelance technical author.
-            </p>
-          </section>
-
-          <section className={styles.section}>
             <h2 className={styles.sectionTitle}>Beyond Code</h2>
             <p className={styles.paragraph}>
-              Aside from programming and writing, I like to read a good
-              dystopian novel, listen to calm piano music or just laze around.
+              I&apos;m someone who believes in growth through curiosity, discipline, and service.
+              I also find purpose in giving back—whether it&apos;s through organizing community events, 
+              mentoring peers, or volunteering for causes that matter. I thrive in environments 
+              where collaboration, creativity, and compassion intersect. Whether leading a student 
+              initiative or helping a friend debug life (or code), I aim to be someone others can 
+              count on.
             </p>
           </section>
         </div>
