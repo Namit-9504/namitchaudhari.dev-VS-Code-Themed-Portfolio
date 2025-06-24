@@ -90,7 +90,7 @@ export default function HomePage() {
         </div>
 
         <div className={styles.infoSection}>
-          <Image src={"/main.jpg"} height={200} width={200} alt='mainjpg' className={styles.homejpg}>
+          <Image src={"/images/main.jpg"} height={200} width={200} alt='mainjpg' className={styles.homejpg}>
 
           </Image>
           <h1 className={styles.developerName}>
